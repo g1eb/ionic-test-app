@@ -11,4 +11,10 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+
+  <calendar-heatmap
+    [data]="data"
+    [color]="color"
+    (handler)="print($event)">
+  </calendar-heatmap>
 </ion-content>
